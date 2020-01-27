@@ -10,6 +10,8 @@
 // And add it to the DOM in the .header-container component
 
 
+// element for query selection
+const headerContainer = document.querySelector('.header-container');
 
 
 function Header() {
