@@ -27,12 +27,10 @@ function header() {
     date.classList.add('date');
     temp.classList.add('temperature');
 
-
     // add content
     date.textContent = 'MARCH 28, 2019';
     title.textContent = 'Lambda Times';
     temp.textContent = '98°';
-
 
     // add structure
     header.appendChild(date);
@@ -40,7 +38,7 @@ function header() {
     header.appendChild(temp);
 
 
-    // return result
+    // return result!!!
     return header;
 }
 
