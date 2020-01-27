@@ -46,7 +46,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is a component?
 
-    *A component is a set of code that defines a series of various objects, data, etc that allows us to condense the code to make it re-usable. Say for example, a button component that allows us to add the same button rules and properties not just in CSS/MHTL, but also JS behavior.*
+    *A component is a set of code that defines a series of various objects, data, etc that allows us to condense the code to make it re-usable. Say for example, a button component that allows us to add the same button rules and properties not just in CSS/MHTL, but also JS behavior.* 
 
 ### Git Set up
 
