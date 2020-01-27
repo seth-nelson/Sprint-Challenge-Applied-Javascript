@@ -19,7 +19,7 @@
 // Create a card for each of the articles and add the card to the DOM.
 
 
-const cardContainer = document.querySelector('.cardsContainer')
+const cardsContainer = document.querySelector('.cards-container')
 
 
 axios
@@ -29,7 +29,7 @@ axios
         console.log(articlesArray);
 
         articlesArray.forEach(element => {
-            element.forEach(elem => cardsContainer.appendChild(cardComponent(e)))
+            element.forEach(e => cardsContainer.appendChild(cardComponent(e)))
         })
     })
 
@@ -60,7 +60,7 @@ axios
         authorName.textContent = article.authorName;
 
         // set structure
-        card.appendChild(headLine);
+        card.appendChild(headline);
         card.appendChild(author);
         author.appendChild(imgContainer);
         imgContainer.appendChild(img);
